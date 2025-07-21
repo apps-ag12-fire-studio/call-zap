@@ -1,9 +1,9 @@
 {
   "hosting": {
-    "target": "apphosting",
     "source": ".",
     "appHosting": {
-      "backendId": "nextn"
+      "backendId": "vapi-outreach-agent",
+      "target": "apphosting"
     }
   }
 }
