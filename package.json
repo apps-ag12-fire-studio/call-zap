@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy --project studio-8056406168"
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.14.1",
