@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "apphosting",
     "source": ".",
     "appHosting": {
       "backendId": "nextn"
