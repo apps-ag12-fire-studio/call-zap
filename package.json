@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "deploy": "firebase deploy --project studio-8056406168"
+    "deploy": "firebase deploy --only apphosting:vapi-outreach-agent"
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.14.1",
