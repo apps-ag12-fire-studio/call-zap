@@ -7,17 +7,8 @@
       "**/node_modules/**"
     ],
     "frameworksBackend": {
-      "id": "call-zap",
+      "id": "pong-function",
       "region": "us-central1"
-    }
-  },
-  "targets": {
-    "studio-8056406168": {
-      "apphosting": {
-        "call-zap": [
-          "call-zap"
-        ]
-      }
     }
   }
 }
