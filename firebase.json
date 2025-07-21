@@ -1,11 +1,8 @@
 {
-  "hosting": [
-    {
-      "target": "apphosting",
-      "source": ".",
-      "appHosting": {
-        "backendId": "vapi-outreach-agent"
-      }
+  "hosting": {
+    "source": ".",
+    "appHosting": {
+      "backendId": "vapi-outreach-agent"
     }
-  ]
+  }
 }
