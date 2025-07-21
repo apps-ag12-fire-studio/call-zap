@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "deploy": "firebase deploy --only hosting"
+    "deploy": "firebase deploy --only apphosting:call-zap"
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.14.1",

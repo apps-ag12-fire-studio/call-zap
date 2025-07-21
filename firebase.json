@@ -1,10 +1,23 @@
 {
   "hosting": {
     "source": ".",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "frameworksBackend": {
       "id": "call-zap",
       "region": "us-central1"
+    }
+  },
+  "targets": {
+    "studio-8056406168": {
+      "apphosting": {
+        "call-zap": [
+          "call-zap"
+        ]
+      }
     }
   }
 }
