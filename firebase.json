@@ -1,11 +1,8 @@
 {
-  "hosting": [
-    {
-      "target": "apphosting",
-      "source": ".",
-      "apphosting": {
-        "backendId": "vapi-outreach-agent"
-      }
+  "hosting": {
+    "source": ".",
+    "apphosting": {
+      "backendId": "pong-function"
     }
-  ]
+  }
 }
