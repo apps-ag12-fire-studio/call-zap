@@ -10,5 +10,12 @@
       "id": "pong-function",
       "region": "us-central1"
     }
+  },
+  "targets": {
+    "pong-function": {
+      "apphosting": [
+        "pong-function"
+      ]
+    }
   }
 }
