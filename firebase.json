@@ -1,8 +1,10 @@
 {
   "hosting": {
     "source": ".",
-    "apphosting": {
-      "backendId": "pong-function"
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "frameworksBackend": {
+      "id": "pong-function",
+      "region": "us-central1"
     }
   }
 }
